@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+}
+.my-slider img{
+
+
+}
+.tns-item:not(.tns-slide-active) + 
+.tns-slide-active + 
+.tns-slide-active{ 
+	height: 200px; 
+	opacity: 1;
+	transition: .5s;
+}
+.tns-slide-active{
+	opacity: .3;
+}
+.tns-slide-active:hover{
+	transform: scale(2.0);
+	cursor: pointer;
+	transition: .9s;
+}
+.slider{
+	position: relative;
+}
+.my-control .next{
+	right: 20px;
+}
+.my-control .prev{
+	left: 20px;
+}
+.majid{
+	width:100%;
+  height:500px;
+  background-image:url(http://images6.fanpop.com/image/photos/33300000/Abstract-Space-space-33308889-1920-1200.jpg);
+  background-position:center;
+}
+.my-control li{
+	cursor: pointer;
+	list-style: none;
+	background: rgba(0, 0, 0, .5);
+	padding: 10px;
+	border-radius: 10px;
+	color: white;position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	z-index: 99;
+}
+.my-control li:hover{
+	background: black;
+}
+.tns-nav{
+	text-align: center;
+	margin-top: 20px;
+}
+.tns-nav button{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: none;
+	background: rgba(0, 0, 0, .5);
+	margin-left: 10px;
+}
+.tns-nav .tns-nav-active{
+	background: black;
+}
+.menu{
+	text-align: center;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin: 20px;
+}
+.menu ul li{
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px 20px;
+	background: rgba(0, 255, 0, .7);
+	border-radius: 5px;
+}
+.menu ul li:hover{
+	background: rgba(255, 0, 0, .7);
+}
+.my-list .mix{
+	margin: 10px 0;
+}
+.my-list .mix img{
+	width: 100%;
+}
+.cc{
+	background: rgba(0, 0, 255, .8);
+	color: white;
+	font-size: 20px;
+	padding: 50px 30px;
+	border-radius: 50%;
+}
